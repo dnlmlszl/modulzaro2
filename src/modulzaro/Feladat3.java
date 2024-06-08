@@ -37,7 +37,7 @@ public class Feladat3 {
         int uresIndex = lehetLepni();
 
         if (uresIndex != -1) {
-            // Az O karakterek balra, az X karakterek jobbra mozognak
+
             for (int i = 0; i < tabla.length; i++) {
                 if (tabla[i].equals("O") && i > uresIndex) {
                     String temp = tabla[i];
@@ -52,12 +52,11 @@ public class Feladat3 {
                 }
             }
         } else {
-            // Ha nincs üres hely, visszakerülünk a középre
+
             tabla[tabla.length / 2] = " ";
         }
         tablaKiir();
     }
-
 
 
     private static boolean jatekVege() {
