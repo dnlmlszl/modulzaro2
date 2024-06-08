@@ -5,7 +5,7 @@ package modulzaro;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class Feladat1_2 {
     static Random random = new Random();
     static Scanner scanner = new Scanner(System.in);
     static int[] arr;
